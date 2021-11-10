@@ -1,5 +1,5 @@
-const inquirer = require('inquirer')
-const mysql = require('mysql2')
+const inquirer = require('inquirer');
+const mysql = require('mysql2');
 
 const questions = [
     {
@@ -12,42 +12,7 @@ const questions = [
         type: '',
         name: '',
         message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
-    {
-        type: '',
-        name: '',
-        message: ''
-    },
+    }
 ];
 
 function init() {
